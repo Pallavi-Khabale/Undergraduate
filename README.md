@@ -8,19 +8,16 @@ My undergrad span multiple subjects, especially those involving programming, ele
 
 ## 📚 Key Subjects Studied
 
-| Subjects                   | Subjects                   | Subjects                    |
-|------------------------------|----------------------------|-----------------------------|
-| Data Analysis & Interpretation| Analog Electronics         | Microprocessor & Microcontroller |
-| Random Signal & Processes     | Digital Logic Design       | Data Structures & Algorithms  |
-| Database Management Systems   | Electrical Networks        | Computer Communication Networks |
-| Big Data Analytics            | Signals and Systems        | Cryptography & System Security  |
-| Economics & Management        | Electromagnetic Field Theory| Control Systems             |
-| Operating Systems             | Integrated Circuits        | Embedded Systems             |
-| Real Time Operating Systems   | Communication Systems      | Web Programming             |
-| Cloud Computing               | RF Filters & Antennas      | C Programming & MATLAB      |
-| Digital Signal Processing     | Microwave Engineering      | Optical Fiber Communication  |
-| VLSI Design                  | VHDL & HDL Programming      | Wireless Communication       |
-| Image Processing             |                            |                             |
+| Subjects                   | Subjects                   | Subjects                    | Subjects                    |
+|------------------------------|----------------------------|-----------------------------|-----------------------------|
+| Data Analysis & Interpretation| Analog Electronics         | Microprocessor & Microcontroller |Image Processing    |
+| Random Signal & Processes     | Digital Logic Design       | Data Structures & Algorithms  |Wireless Communication |
+| Database Management Systems   | Electrical Networks        | Computer Communication Networks |VHDL & HDL Programming|
+| Big Data Analytics            | Signals and Systems        | Cryptography & System Security  |VLSI Design |
+| Economics & Management        | Electromagnetic Field Theory| Control Systems             |Optical Fiber Communication|
+| Operating Systems             | Integrated Circuits        | Embedded Systems             |Microwave Engineering|
+| Real Time Operating Systems   | Communication Systems      | Web Programming             |Digital Signal Processing|
+| Cloud Computing               | RF Filters & Antennas      | C Programming & MATLAB      ||
 
 
 ---
