@@ -30,8 +30,9 @@ My undergrad span multiple subjects, especially those involving programming, ele
 
 ---
 
-👩‍💻 Author
-Pallavi Khabale
+## 👩‍💻 Author
+
+**Pallavi Khabale**
 
 Master's in Supply Chain Management – University of Washington, Foster School of Business
 
@@ -39,4 +40,4 @@ B.Tech in E&TC – K. J. Somaiya College of Engineering
 
 [LinkedIn](https://www.linkedin.com/in/pallavi-khabale) | [GitHub](https://github.com/Pallavi-Khabale)
 
-More undergraduate projects will be added soon as I migrate them from individual folders.
+> More undergraduate projects will be added soon as I migrate them from individual folders.
