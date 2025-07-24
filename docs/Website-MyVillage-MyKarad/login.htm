@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Karad Tourism/Login</title>
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+
+.column {
+    flex: 50%;
+    padding: 10px;
+    height: 300px; 
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+</style>
+</head>
+<body bgcolor="#E0FFFF" >
+<img src="karad.png" alt="Sangam" align="left" height=10% width="10%" vspace=01% border="1" >
+&nbsp<p> <font size=10% color="navy"><b> &nbsp Karad Tourism</b></font></p>
+<br>
+<div class="navbar" >
+  <a href="karad.htm" >Home</a>
+  <a href="city.htm" target="_blank">Karad At A Glance</a>
+  <div class="dropdown">
+    <button class="dropbtn">Places To Go
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" size="3">
+      <a href="#">Preetisangam</a>
+      <a href="#">Kaas Pathaar</a>
+      <a href="#">Sadashivgad</a>
+	  <a href="#">Agashiv Caves</a>
+	  <a href="#">Karad Hills</a>
+	  <a href="#">Shivaji Cricket Stadium</a>
+	  <a href="#">Vasantgad</a>
+	  <a href="#">Pratapgad</a>
+	  <a href="#">Mayani Bird Sanctuary</a>
+	  <a href="#">Naktya Ravalyachi Vihir</a>
+    </div>
+  </div> 
+  <a href="feedback.htm" target="_blank">Feedback</a>
+  <a href="#contact us">Contact Us</a>
+  <div class="dropdown">
+    <button class="dropbtn">Online Booking 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a target="_blank" href="https://www.makemytrip.com/">Online Booking</a>
+      <a target="_blank" href="https://www.makemytrip.com/">Hotel booking</a>
+      <a target="_blank" href="https://www.makemytrip.com/">Flight, train & bus booking</a>
+    </div>
+  </div> 
+  <a href="login.htm" target="_blank">Login/Register</a>
+</div>
+
+<br>
+<h1>Login/Register</h1>
+
+<div class="row">
+  <div class="column" style="background-color:#E0FFFF;">
+    
+    <p>
+	
+	<form action="https://www.tripadvisor.in/" method="get" target="_blank" style="border:1px solid white">
+	<fieldset><legend><h2>Not yet Registered?</h2></legend>
+  <div class="container">
+    <p>Fill in the details below to register with Karad Tourism website.</p>
+    <hr>
+	
+	<label for="First Name"><b>First Name</b></label>
+    <input type="text" placeholder="Enter First Name" name="First Name" required>
+	
+	<label for="Last Name"><b>Last Name</b></label>
+    <input type="text" placeholder="Enter Last Name" name="Last Name" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="someone@example.com" name="email" required>
+
+	<label for="Mobile number"><b>Mobile number</b></label>
+    <input type="text" placeholder="" name="Enter Mobile Number" required>
+	
+	<label for="Date of Birth"><b>Date of Birth</b></label><p>
+    <input type="date" placeholder="" name="Date of Birth" required><br><br>
+	
+	<label for="Gender"><b>Gender</b></label><p>
+	<input type="radio" name="gender" value="male" checked> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other<br><br>
+	
+	<label for="city"><b>City</b></label>
+    <input type="text" placeholder="Enter city name" name="City" required>
+	
+    <label for="psw"><b>Password</b></label><br>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+    
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="reset" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+  
+</form>
+
+	</p>
+  </div>
+  <div class="column" style="background-color:#E0FFFF;">
+    <p>
+	
+	<form action="https://www.tripadvisor.in/" method="get" target="_blank" style="border:1px solid white">
+	<fieldset><legend><h2>Login</h2></legend>
+  <div class="container">
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+    
+    <p><a href="#" style="color:dodgerblue">Forgot Password?</a></p>
+
+    <div class="clearfix">
+      <button type="submit" class="signupbtn">Login</button>
+    </div>
+  </div>
+  </fieldset>
+</form>
+	
+	
+	
+<br></br>
+<br></br>
+<br></br>
+
+<br></br>
+<br></br>
+<br></br>
+</p>
+ </div>
+</div>
+
+
+</body>
+</html>

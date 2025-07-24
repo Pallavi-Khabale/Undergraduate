@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Karad Tourism/Feedback</title>
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.container {
+    border-radius: 5px;
+    background-color: #59FFFF;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+</style>
+</head>
+
+<body bgcolor="#E0FFFF" >
+<img src="karad.png" alt="Sangam" align="left" height=10% width="10%" vspace=01% border="1" >
+&nbsp<p> <font size=10% color="navy"><b> &nbsp Karad Tourism</b></font></p>
+<br>
+<div class="navbar" >
+  <a href="karad.htm">Home</a>
+  <a href="city.htm" target="_blank">Karad At A Glance</a>
+  <div class="dropdown">
+    <button class="dropbtn">Places To Go
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" size="3">
+      <a href="#">Preetisangam</a>
+      <a href="#">Kaas Pathaar</a>
+      <a href="#">Sadashivgad</a>
+	  <a href="#">Agashiv Caves</a>
+	  <a href="#">Karad Hills</a>
+	  <a href="#">Shivaji Cricket Stadium</a>
+	  <a href="#">Vasantgad</a>
+	  <a href="#">Pratapgad</a>
+	  <a href="#">Mayani Bird Sanctuary</a>
+	  <a href="#">Naktya Ravalyachi Vihir</a>
+    </div>
+  </div> 
+  <a href="feedback.htm" target="_blank">Feedback</a>
+  <a href="#contact us">Contact Us</a>
+  <div class="dropdown">
+    <button class="dropbtn">Online Booking 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a target="_blank" href="https://www.makemytrip.com/">Online Booking</a>
+      <a target="_blank" href="https://www.makemytrip.com/">Hotel booking</a>
+      <a target="_blank" href="https://www.makemytrip.com/">Flight, train & bus booking</a>
+    </div>
+  </div> 
+  <a href="login.htm" target="_blank">Login/Register</a>
+</div>
+<br>
+	</div>
+	
+<h1> Feedback </h1>
+<p>Thank you for taking time to provide your valuable feedback on this website! Being a tourism website, it has huge amount of information, content & data to be entered and maintained. We do our best to make sure that everything works smoothly, the content entered is perfect, there are no broken links or any errors in the information listed - however, even with the best will in the world, things can change faster than we can keep up with it. This is when you can tell us when something is not right or proper. Your feedback will help us to keep this website running smoothly and help others too.
+Please include your name and e-mail address.</p>
+
+<div class="container">
+  <form action="https://www.tripadvisor.in/" method="get" target="_blank">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="Name" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="email">E-mail ID</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="" name="email" placeholder="Your E-mail ID..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country" >
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+		  <option selected="yes" value="india">India</option>
+		  <option value="south korea">South Korea</option>
+		  <option value="united kingdom">United Kingdom</option>
+		  <option value="ireland">Ireland</option>
+		  <option value="hong kong">Hong Kong</option>
+		  <option value="japan">Japan</option>
+		  <option value="singapore">Singapore</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="Feedback">Feedback</label>
+      </div>
+      <div class="col-75">
+        <textarea id="Feedback" name="Feedback" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+</body>
+</html>
