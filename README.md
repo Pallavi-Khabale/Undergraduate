@@ -8,16 +8,20 @@ My undergrad span multiple subjects, especially those involving programming, ele
 
 ## 📚 Key Subjects Studied
 
-- Web Programming
-- Embedded Systems
-- Control Systems
-- Data Structures and Algorithms
-- Computer Networks
-- Microcontrollers & Microprocessors
-- Electrical Machines
-- Digital Logic Design
-- C Programming & MATLAB
-- VHDL & HDL Programming
+| Subjects                   | Subjects                   | Subjects                    |
+|------------------------------|----------------------------|-----------------------------|
+| Data Analysis & Interpretation| Analog Electronics         | Microprocessor & Microcontroller |
+| Random Signal & Processes     | Digital Logic Design       | Data Structures & Algorithms  |
+| Database Management Systems   | Electrical Networks        | Computer Communication Networks |
+| Big Data Analytics            | Signals and Systems        | Cryptography & System Security  |
+| Economics & Management        | Electromagnetic Field Theory| Control Systems             |
+| Operating Systems             | Integrated Circuits        | Embedded Systems             |
+| Real Time Operating Systems   | Communication Systems      | Web Programming             |
+| Cloud Computing               | RF Filters & Antennas      | C Programming & MATLAB      |
+| Digital Signal Processing     | Microwave Engineering      | Optical Fiber Communication  |
+| VLSI Design                  | VHDL & HDL Programming      | Wireless Communication       |
+| Image Processing             |                            |                             |
+
 
 ---
 
